@@ -1,0 +1,9 @@
+syntax = "proto3";
+package mercury.mercury;
+
+option go_package = "github.com/fadeev/mercury/x/mercury/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
